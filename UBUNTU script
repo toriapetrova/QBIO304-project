@@ -1,0 +1,480 @@
+#TRIMMING OF DATA WITH TRIMMOMATIC
+#single end
+#HEADCROP:5 removes 5 bases from the start
+#SLIDINGWINDOW:4:15 - 4 bases to average cross; 15 is the average quality required
+#MINLEN:70 - specifies the minimum length of reads to be kept
+
+toria@LAPTOP-K0AEVO7D:~/project$ java -jar ./Trimmomatic-0.39/trimmomatic-0.39.jar SE DRR446089.fastq.gz DRR446089.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70         TrimmomaticSE: Started with arguments:
+ DRR446089.fastq.gz DRR446089.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Reads: 27429316 Surviving: 26922313 (98.15%) Dropped: 507003 (1.85%)
+TrimmomaticSE: Completed successfully
+
+toria@LAPTOP-K0AEVO7D:~/project$ java -jar ./Trimmomatic-0.39/trimmomatic-0.39.jar SE DRR446090.fastq.gz DRR446090.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70         TrimmomaticSE: Started with arguments:
+ DRR446090.fastq.gz DRR446090.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Reads: 29002247 Surviving: 28437431 (98.05%) Dropped: 564816 (1.95%)
+TrimmomaticSE: Completed successfully
+
+toria@LAPTOP-K0AEVO7D:~/project$ java -jar ./Trimmomatic-0.39/trimmomatic-0.39.jar SE DRR446091.fastq.gz DRR446091.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70         TrimmomaticSE: Started with arguments:
+ DRR446091.fastq.gz DRR446091.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Reads: 23666079 Surviving: 23202536 (98.04%) Dropped: 463543 (1.96%)
+TrimmomaticSE: Completed successfully
+
+toria@LAPTOP-K0AEVO7D:~/project$ java -jar ./Trimmomatic-0.39/trimmomatic-0.39.jar SE DRR446097.fastq.gz DRR446097.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70         TrimmomaticSE: Started with arguments:
+ DRR446097.fastq.gz DRR446097.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Reads: 25316740 Surviving: 24764817 (97.82%) Dropped: 551923 (2.18%)
+TrimmomaticSE: Completed successfully
+toria@LAPTOP-K0AEVO7D:~/project$ java -jar ./Trimmomatic-0.39/trimmomatic-0.39.jar SE DRR446098.fastq.gz DRR446098.trim.
+fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70
+TrimmomaticSE: Started with arguments:
+ DRR446098.fastq.gz DRR446098.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Reads: 26726221 Surviving: 26173816 (97.93%) Dropped: 552405 (2.07%)
+TrimmomaticSE: Completed successfully
+toria@LAPTOP-K0AEVO7D:~/project$ java -jar ./Trimmomatic-0.39/trimmomatic-0.39.jar SE DRR446099.fastq.gz DRR446099.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70         TrimmomaticSE: Started with arguments:
+ DRR446099.fastq.gz DRR446099.trim.fastq.gz ILLUMINACLIP:./Trimmomatic-0.39/adapters/TruSeq3-SE.fa:2:30:10 HEADCROP:5 SLIDINGWINDOW:4:15 MINLEN:70
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Reads: 22111996 Surviving: 21677255 (98.03%) Dropped: 434741 (1.97%)
+TrimmomaticSE: Completed successfully
+
+
+KALLISTO
+
+#building an index for kallisto from the reference genome
+toria@LAPTOP-K0AEVO7D:~/project$ kallisto index -i Oryza_sativa.IRGSP-1.0.cdna.all.index Oryza_sativa.IRGSP-1.0.cdna.all
+.fa.gz
+
+[build] loading fasta file Oryza_sativa.IRGSP-1.0.cdna.all.fa.gz
+[build] k-mer length: 31
+[build] warning: clipped off poly-A tail (longer than 10)
+        from 3 target sequences
+[build] warning: replaced 2265 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides
+[build] counting k-mers ... done.
+[build] building target de Bruijn graph ...  done
+[build] creating equivalence classes ...  done
+[build] target de Bruijn graph has 245153 contigs and contains 52191446 k-mers
+
+#pseudoalignment
+toria@LAPTOP-K0AEVO7D:~/project$ kallisto quant -i Oryza_sativa.IRGSP-1.0.cdna.all.index -o k_DRR446089 --single -l 180
+-s 20 DRR446089.trim.fastq.gz
+
+[quant] fragment length distribution is truncated gaussian with mean = 180, sd = 20
+[index] k-mer length: 31
+[index] number of targets: 44,761
+[index] number of k-mers: 52,191,446
+[index] number of equivalence classes: 85,574
+[quant] running in single-end mode
+[quant] will process file 1: DRR446089.trim.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,922,313 reads, 19,789,499 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 996 rounds
+
+toria@LAPTOP-K0AEVO7D:~/project$ kallisto quant -i Oryza_sativa.IRGSP-1.0.cdna.all.index -o k_DRR446090 --single -l 180
+-s 20 DRR446090.trim.fastq.gz
+
+[quant] fragment length distribution is truncated gaussian with mean = 180, sd = 20
+[index] k-mer length: 31
+[index] number of targets: 44,761
+[index] number of k-mers: 52,191,446
+[index] number of equivalence classes: 85,574
+[quant] running in single-end mode
+[quant] will process file 1: DRR446090.trim.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 28,437,431 reads, 20,984,608 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,115 rounds
+
+toria@LAPTOP-K0AEVO7D:~/project$ kallisto quant -i Oryza_sativa.IRGSP-1.0.cdna.all.index -o k_DRR446091 --single -l 180
+-s 20 DRR446091.trim.fastq.gz
+
+[quant] fragment length distribution is truncated gaussian with mean = 180, sd = 20
+[index] k-mer length: 31
+[index] number of targets: 44,761
+[index] number of k-mers: 52,191,446
+[index] number of equivalence classes: 85,574
+[quant] running in single-end mode
+[quant] will process file 1: DRR446091.trim.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 23,202,536 reads, 14,198,056 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 986 rounds
+
+toria@LAPTOP-K0AEVO7D:~/project$ kallisto quant -i Oryza_sativa.IRGSP-1.0.cdna.all.index -o k_DRR446097 --single -l 180
+-s 20 DRR446097.trim.fastq.gz
+
+[quant] fragment length distribution is truncated gaussian with mean = 180, sd = 20
+[index] k-mer length: 31
+[index] number of targets: 44,761
+[index] number of k-mers: 52,191,446
+[index] number of equivalence classes: 85,574
+[quant] running in single-end mode
+[quant] will process file 1: DRR446097.trim.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 24,764,817 reads, 14,929,303 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 908 rounds
+
+toria@LAPTOP-K0AEVO7D:~/project$ kallisto quant -i Oryza_sativa.IRGSP-1.0.cdna.all.index -o k_DRR446098 --single -l 180
+-s 20 DRR446098.trim.fastq.gz
+
+[quant] fragment length distribution is truncated gaussian with mean = 180, sd = 20
+[index] k-mer length: 31
+[index] number of targets: 44,761
+[index] number of k-mers: 52,191,446
+[index] number of equivalence classes: 85,574
+[quant] running in single-end mode
+[quant] will process file 1: DRR446098.trim.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 26,173,816 reads, 18,980,630 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,159 rounds
+
+toria@LAPTOP-K0AEVO7D:~/project$ kallisto quant -i Oryza_sativa.IRGSP-1.0.cdna.all.index -o k_DRR446099 --single -l 180
+-s 20 DRR446099.trim.fastq.gz
+
+[quant] fragment length distribution is truncated gaussian with mean = 180, sd = 20
+[index] k-mer length: 31
+[index] number of targets: 44,761
+[index] number of k-mers: 52,191,446
+[index] number of equivalence classes: 85,574
+[quant] running in single-end mode
+[quant] will process file 1: DRR446099.trim.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 21,677,255 reads, 12,515,140 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 852 rounds
+
+
+#MAPPING TO A REFERENCE GENOME WITH HISAT2
+#downloaded reference genome from ncbi
+
+toria@LAPTOP-K0AEVO7D:~/project$ gunzip Oryza_sativa.IRGSP-1.0.cdna.all.fa  #unzipping reference genome
+
+#creating hisat index
+toria@LAPTOP-K0AEVO7D:~/project$ ./hisat2-2.2.1/hisat2-build-l Oryza_sativa.IRGSP-1.0.cdna.all.fa PERSI
+Settings:
+  Output files: "PERSI.*.ht2l"
+  Line rate: 7 (line is 128 bytes)
+  Lines per side: 1 (side is 128 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  Oryza_sativa.IRGSP-1.0.cdna.all.fa
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:01
+  Time to read SNPs and splice sites: 00:00:00
+Using parameters --bmax 12985938 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 12985938 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:01
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 6; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 8.65729e+06 (target: 12985937)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering GFM loop
+Getting block 1 of 8
+  Reserving size (12985938) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 7008619 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:03
+Returning block of 7008620 for bucket 1
+Getting block 2 of 8
+  Reserving size (12985938) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 9410884 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:04
+Returning block of 9410885 for bucket 2
+Getting block 3 of 8
+  Reserving size (12985938) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 7895100 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:04
+Returning block of 7895101 for bucket 3
+Getting block 4 of 8
+  Reserving size (12985938) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 11500045 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:04
+Returning block of 11500046 for bucket 4
+Getting block 5 of 8
+  Reserving size (12985938) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 4383211 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:02
+Returning block of 4383212 for bucket 5
+Getting block 6 of 8
+  Reserving size (12985938) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 11324460 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:04
+Returning block of 11324461 for bucket 6
+Getting block 7 of 8
+  Reserving size (12985938) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 11319292 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:04
+Returning block of 11319293 for bucket 7
+Getting block 8 of 8
+  Reserving size (12985938) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 6416717 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:03
+Returning block of 6416718 for bucket 8
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 16676308
+fchr[G]: 34131542
+fchr[T]: 52279194
+fchr[$]: 69258335
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 42082125 bytes to primary GFM file: PERSI.1.ht2l
+Wrote 34629172 bytes to secondary GFM file: PERSI.2.ht2l
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Returning from initFromVector
+Wrote 391688467 bytes to primary GFM file: PERSI.5.ht2l
+Wrote 17364982 bytes to secondary GFM file: PERSI.6.ht2l
+Re-opening _in5 and _in5 as input streams
+Returning from HGFM constructor
+Headers:
+    len: 69258335
+    gbwtLen: 69258336
+    nodes: 69258336
+    sz: 17314584
+    gbwtSz: 17314585
+    lineRate: 7
+    offRate: 4
+    offMask: 0xfffffffffffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 8388616
+    offsLen: 4328646
+    offsSz: 34629168
+    lineSz: 128
+    sideSz: 128
+    sideGbwtSz: 96
+    sideGbwtLen: 384
+    numSides: 180361
+    numLines: 180361
+    gbwtTotLen: 23086208
+    gbwtTotSz: 23086208
+    reverse: 0
+    linearFM: Yes
+Total time for call to driver() for forward index: 00:00:59
+
+#alignment to reference genome
+toria@LAPTOP-K0AEVO7D:~/project$ ./hisat2-2.2.1/hisat2 -x PERSI -U DRR446089.trim.fastq.gz -p 4 -S DRR446089.sam
+26922313 reads; of these:
+  26922313 (100.00%) were unpaired; of these:
+    5011152 (18.61%) aligned 0 times
+    14769388 (54.86%) aligned exactly 1 time
+    7141773 (26.53%) aligned >1 times
+81.39% overall alignment rate
+
+toria@LAPTOP-K0AEVO7D:~/project$ ./hisat2-2.2.1/hisat2 -x PERSI -U DRR446090.trim.fastq.gz -p 4 -S DRR446090.sam
+28437431 reads; of these:
+  28437431 (100.00%) were unpaired; of these:
+    5765300 (20.27%) aligned 0 times
+    14580944 (51.27%) aligned exactly 1 time
+    8091187 (28.45%) aligned >1 times
+79.73% overall alignment rate
+
+toria@LAPTOP-K0AEVO7D:~/project$ ./hisat2-2.2.1/hisat2 -x PERSI -U DRR446091.trim.fastq.gz -p 4 -S DRR446091.sam
+23202536 reads; of these:
+  23202536 (100.00%) were unpaired; of these:
+    5949557 (25.64%) aligned 0 times
+    11650872 (50.21%) aligned exactly 1 time
+    5602107 (24.14%) aligned >1 times
+74.36% overall alignment rate
+
+toria@LAPTOP-K0AEVO7D:~/project$ ./hisat2-2.2.1/hisat2 -x PERSI -U DRR446097.trim.fastq.gz -p 4 -S DRR446097.sam
+24764817 reads; of these:
+  24764817 (100.00%) were unpaired; of these:
+    6813866 (27.51%) aligned 0 times
+    12075157 (48.76%) aligned exactly 1 time
+    5875794 (23.73%) aligned >1 times
+72.49% overall alignment rate
+
+toria@LAPTOP-K0AEVO7D:~/project$ ./hisat2-2.2.1/hisat2 -x PERSI -U DRR446098.trim.fastq.gz -p 4 -S DRR446098.sam
+26173816 reads; of these:
+  26173816 (100.00%) were unpaired; of these:
+    5285614 (20.19%) aligned 0 times
+    14079161 (53.79%) aligned exactly 1 time
+    6809041 (26.01%) aligned >1 times
+79.81% overall alignment rate
+
+toria@LAPTOP-K0AEVO7D:~/project$ ./hisat2-2.2.1/hisat2 -x PERSI -U DRR446099.trim.fastq.gz -p 4 -S DRR446099.sam
+21677255 reads; of these:
+  21677255 (100.00%) were unpaired; of these:
+    6328821 (29.20%) aligned 0 times
+    10455106 (48.23%) aligned exactly 1 time
+    4893328 (22.57%) aligned >1 times
+70.80% overall alignment rate
